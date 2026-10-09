@@ -1,0 +1,53 @@
+# Environment files and secrets
+
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+service-account*.json
+
+# Git and local locks
+
+.git/
+*.rbxl.lock
+*.rbxlx.lock
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node.js
+
+node_modules/
+dist/
+
+# IDE and OS files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+
+*.log
+*.tmp
+*.bak
+
+# Local automation artifacts
+
+shot_*.png
+cmd_paste.ps1
+capture.ps1
+ocr.ps1
+
+# Generated project files
+__pycache__/
+*.py[cod]
+*.rbxl.lock
+*.rbxlx.lock
